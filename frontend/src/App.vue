@@ -142,7 +142,7 @@ onMounted(fetchProducts)
         <span class="logo-icon">📦</span>
         <div>
           <div class="logo-name">StockPro</div>
-          <div class="logo-sub">ระบบจัดการสินค้าคงคลัง</div>
+          <div class="logo-sub">ระบบจัดการสินค้าคงคลัง By Achirawit</div>
         </div>
       </div>
       <button class="btn-add" @click="openAdd">+ เพิ่มสินค้า</button>
@@ -163,7 +163,7 @@ onMounted(fetchProducts)
           <div class="stat-icon si-red">⚠️</div>
           <div class="stat-body">
             <div class="stat-val" style="color:#dc2626">{{ stats.lowStock }}</div>
-            <div class="stat-label">สต็อกใกล้หมด (<10)</div>
+            <div class="stat-label">สต็อกใกล้หมด(ต่ำกว่า 10 ชิ้น)</div>
           </div>
         </div>
         <div class="stat-card">
@@ -328,18 +328,18 @@ onMounted(fetchProducts)
 
 .app-header {
   position: sticky; top: 0; z-index: 100;
-  background: #fff; border-bottom: 1px solid #e2e8f0;
+  background: #FFFAF3; border-bottom: 1px solid #e2e8f0;
   height: 62px; padding: 0 1.5rem;
   display: flex; align-items: center; gap: .85rem;
   box-shadow: 0 1px 6px rgba(0,0,0,.07);
 }
 .logo { display: flex; align-items: center; gap: .6rem; }
 .logo-icon { font-size: 1.6rem; }
-.logo-name { font-weight: 800; font-size: 1.15rem; color: #065f46; line-height: 1; }
+.logo-name { font-weight: 800; font-size: 1.15rem; color: #2C5EAD; line-height: 1; }
 .logo-sub  { font-size: .72rem; color: #64748b; }
 .btn-add {
   margin-left: auto;
-  background: #10b981; color: #fff;
+  background: #F62440; color: #fff;
   border: none; border-radius: 8px;
   padding: .55rem 1.2rem; font-size: .9rem; font-weight: 700;
   cursor: pointer; transition: background .2s;
@@ -370,7 +370,7 @@ onMounted(fetchProducts)
 .stat-label { font-size: .8rem; color: #64748b; margin-top: .2rem; }
 
 .alert-low {
-  background: #fef2f2; border: 1px solid #fca5a5;
+  background: #fa5d5d; border: 1px solid #fca5a5;
   border-radius: 10px; padding: .85rem 1.2rem;
   font-size: .92rem; margin-bottom: 1.5rem; color: #991b1b;
 }
