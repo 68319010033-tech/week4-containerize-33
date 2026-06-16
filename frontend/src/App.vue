@@ -142,7 +142,7 @@ onMounted(fetchProducts)
         <span class="logo-icon">📦</span>
         <div>
           <div class="logo-name">StockPro</div>
-          <div class="logo-sub">ระบบจัดการสินค้าคงคลัง</div>
+          <div class="logo-sub">ระบบจัดการสินค้าคงคลัง By Achirawit</div>
         </div>
       </div>
       <button class="btn-add" @click="openAdd">+ เพิ่มสินค้า</button>
@@ -339,7 +339,7 @@ onMounted(fetchProducts)
 .logo-sub  { font-size: .72rem; color: #64748b; }
 .btn-add {
   margin-left: auto;
-  background: #10b981; color: #fff;
+  background: #F62440; color: #fff;
   border: none; border-radius: 8px;
   padding: .55rem 1.2rem; font-size: .9rem; font-weight: 700;
   cursor: pointer; transition: background .2s;
