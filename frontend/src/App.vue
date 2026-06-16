@@ -328,7 +328,7 @@ onMounted(fetchProducts)
 
 .app-header {
   position: sticky; top: 0; z-index: 100;
-  background: #fff; border-bottom: 1px solid #e2e8f0;
+  background: #FFFAF3; border-bottom: 1px solid #e2e8f0;
   height: 62px; padding: 0 1.5rem;
   display: flex; align-items: center; gap: .85rem;
   box-shadow: 0 1px 6px rgba(0,0,0,.07);
