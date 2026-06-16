@@ -370,7 +370,7 @@ onMounted(fetchProducts)
 .stat-label { font-size: .8rem; color: #64748b; margin-top: .2rem; }
 
 .alert-low {
-  background: #fef2f2; border: 1px solid #fca5a5;
+  background: #fa5d5d; border: 1px solid #fca5a5;
   border-radius: 10px; padding: .85rem 1.2rem;
   font-size: .92rem; margin-bottom: 1.5rem; color: #991b1b;
 }
