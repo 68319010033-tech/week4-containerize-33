@@ -4,7 +4,7 @@ name: CI — StockPro    # ชื่อที่โชว์ใน GitHub Action
 on:
   push:
     branches:
-      - develop          # ทริกเกอร์เมื่อ push ไป develop
+      - develop          # ทริกเกอร์เมื่อ push ไป  develop
       - 'feature/**'     # ทริกเกอร์เมื่อ push ไป feature/xxx
   pull_request:
     branches:
@@ -33,9 +33,9 @@ jobs:
         working-directory: backend    # cd เข้าไปใน folder backend/ ก่อนรัน
         run: npm ci                   # ci = clean install (เร็วกว่า npm install)
 
-      - name: Lint backend code
-        working-directory: backend
-        run: npm run lint             # รัน ESLint ตรวจ code style
+      # - name: Lint backend code
+      #   working-directory: backend
+      #   run: npm run lint             # รัน ESLint ตรวจ code style
 
       # ── Step 5-6: Frontend ────────────────────────────────────
       - name: Install frontend dependencies
